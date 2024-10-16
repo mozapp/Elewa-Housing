@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1900px;
+}
+
+/*Hero section*/
+.img-fluid{
+    height: 90vh;
+    width: 100vw;
+    object-fit: cover;
+    filter:brightness(0.6);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.custom-heroText{
+    margin: -300px 0 0 0;
+    position: absolute;
+    z-index: 2;
+}  
+
+.custom-heroText h2{
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+    .custom-heroText{
+        margin-top: -300px;
+        text-align: center;
+        position: absolute;
+        background-color: #000000cc;
+    }
+
+    .custom-heroText h2{
+        font-size: 40px !important;
+    }
+
+    .custom-heroText h4{
+        font-size: 18px;
+        color: #d8a028;
+    }
+    .img-fluid{
+        height: 90vh;
+        position: relative;
+    }
+}
+/*Hero section end*/
+
+
+/*Navbar section*/
+.custom-navlogo{
+    font-size: 35px;
+}
+.custom-navlogo span{
+    color: #d8a028;
+    font-weight: 400;
+}
+
+.navbar-scrolled{
+    background-color: #000 !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15) !important;
+}
+.navbar{
+    transition: all 0.5s;
+}
+
+.custom-navbarlink{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-navbarlink ul li a{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.custom-register{
+    color: #fff;
+    background-color: rgb(83, 160, 160);
+    border-radius: 5px;
+    padding: 5px;
+}
+.custom-register:hover{
+    background-color: rgba(83, 160, 160, 0.747);
+    color: rgb(41, 41, 80);
+}
+/*Navbar section end*/
+
+/*Recent House section*/
+#latestHouse{
+    background-color: #f5f5f5;
+    padding-bottom: 20px;
+}
+
+.card{
+    height: 300px !important;
+    margin-bottom: 15px;
+}
+
+.card img{
+    height: 150px !important;
+}
+
+.card-title a{
+    text-decoration: none;
+}
+
+.cardParagraphs p{
+    margin: 0;
+    padding: 0;
+}
+.cardParagraphs span{
+    background-color: #e6e5e5b7;
+    font-weight: normal;
+}
+.custon-homelocaton, .custon-homePrice{
+    color: #000;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 576px) {
+   
+    
+    .card{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+/*Recent House Section end*/
+
+/*ourPurpose Section*/
+.custom-ourPurpose{
+   width: 100%;
+   height: 20rem;
+   background-image: url("../images/bg.PNG");
+   padding-top: 60px;
+}
+
+.custom-ourPurpose h2, .custom-ourPurpose p {
+    width: 500px;
+    margin: 0 0 0 100px;
+    padding-bottom: 15px;
+}
+
+.btn-ContactUs{
+    background-color: rgb(156, 156, 221);
+    color: #0c0c0c;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.btn-ContactUs:hover{
+    border-radius:  5px;
+    border: 2px solid #fff;
+}
+
+@media (max-width: 567px) {
+    
+.custom-ourPurpose h2, .custom-ourPurpose p {
+    width: 90%;
+    margin-left: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+}
+/*ourPurpose Section end*/
+
+/*Most rated Agent Section*/
+@media (max-width: 567px) {
+    .custom-rate{
+        margin-bottom: 20px;
+        margin-top: 35px;
+    }
+}
+.custom-rate{
+    box-shadow: 0 6px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-body img{
+    border-radius: 100px;
+    height: 100px !important;
+    width: 100px !important;
+    object-fit:contain;
+}
+/*Most rated Agent Section end*/
+
+/*Footer section*/
+#footer{
+    margin-top: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+    color: #b1b0b0;
+    background-color: #080808;
+}
+
+.custom-footer-container{
+    padding-top: 40px;
+    background-color: #080808;
+}
+
+.custom-footer-logo h2{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+}
+.custom-footer-logo h2 span{
+    width: 180px;
+    height: 50px;
+    color: #ce9c13;
+    border-radius: 5px;
+}
+
+.divider{
+    background-color: #b1b0b0;
+    width: 100%;
+    height: 1px;
+}
+/*Footer section end*/
