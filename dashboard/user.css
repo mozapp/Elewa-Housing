@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*Custom wrapper section*/
+
+.custom-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/*Custom wrapper section end*/
+
+
+/*sidebar section end*/
+#sidebar{
+    background-color: #000;
+    min-width: 0;
+    max-width: 0;
+    max-height: 100% !important;
+    padding-top: 20px;
+    transition: all 0.35s ease-in-out;
+}
+
+#sidebar.expand{
+    background-color: #000;
+    min-width: 20%;
+    max-width: 0;
+    max-height: 100% !important;
+    padding-top: 20px;
+}
+
+@media (max-width: 567px) {
+    #sidebar.expand{
+        background-color: #000;
+        min-width: 50%;
+        max-width: 0;
+        max-height: 100% !important;
+        padding-top: 20px;
+    }    
+}
+
+
+.sidebar-logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.divider{
+    background-color: #e2dfdf;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 40px;
+}
+
+.sidebar_buttons ul{
+    padding: 0;
+}
+.sidebar_buttons ul li{
+    width: 100%;
+    margin-left: 1px;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar_buttons ul li a{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.sidebar_buttons ul li a:hover{
+    background-color: #2d8ad6;
+}
+/*sidebar section end*/
+
+
+/*mainPage section*/
+#mainPage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #c2c1c1;
+    overflow-y: scroll;
+}
+
+@media (max-width: 567px) {
+    #mainPage{
+        min-width: 100%;
+    }    
+}
+
+.custom-table{
+    margin-bottom: 50px;
+}
+
+button{
+    border: none;
+    position: absolute;
+    left: 15px;
+}
+
+.btnToggleSidebar{
+    top: 4%;
+    left: 1rem;
+}
+.btnToggleSidebar i{
+    font-size: 30px;
+}
+
+/*Profile section*/
+.profilImage{
+    background-color: #f5f8fa;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.profilImage img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 90% !important;
+    margin-top: 15px !important;
+}
+
+@media (max-width: 567px) {
+    .profilImage{
+        background-color: #f5f8fa;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .profilImage img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        margin-left: 80% !important;
+        margin-top: 15px !important;
+    }
+}
+/*Profile section end*/
+
+/*Deashboard Record*/
+.dashboardContent{
+    margin-top: 20px;
+}
+
+.dashboardContent h3{
+    padding-bottom: 10px;
+}
+
+.recordview{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(105, 83, 83, 0.664);
+    padding: 10px;
+}
+/*Deashboard Record end*/
+
+/*Deashboard Table Record*/
+.footer{
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-end;
+    padding-right: 30px;
+    position: fixed;
+    bottom: -15px;
+}
+
+.footer li{
+    padding-top: 10px;
+}
+@media (max-width: 567px) {
+    .footer{
+        height: 55px;
+        background-color: #000;
+        font-size: 12px !important;
+        font-weight:lighter !important;
+        position: fixed;
+    } 
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 500;
+    font-weight: bold;
+    color: #fff;
+}
+.footer a:hover{
+    color: #4589d6;
+}
+/*Deashboard Table Record end*/

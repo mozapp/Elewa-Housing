@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Bootstrap CSS Offline-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     
+    <!--Local FontAwesome link-->
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.min.css">
+
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="css/home.css">
+    <title>Elewa Housing</title>
+  </head>
+  <body>
+    <!--hero section backgroung image-->
+    <header div="hero">
+        <img src="images/hero_img.webp" class="img-fluid w-100" alt="hero-section-img">
+    </header>
+    <!--hero section backgroung image end-->
+   
+    <!--Navbar section-->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand custom-navlogo" href="#">ELE<span>WA</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse custom-navbarlink" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">House</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-register" href="/account/register.html">Register</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    <!--Navbar section end-->
+ 
+    <!--Search box-->
+    <div class="container">
+      <form action="post">
+        <div class="input-group">
+          <select name="" id="search-type-state" class="form-select">
+            <option>Select State</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Abuja">Abuja</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Calabar">Calabar</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Delta">Delta</option>
+          </select>
+          <select name="" id="search-type-lga" class="form-select">
+            <option>Select LGA</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Abuja">Abuja</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Calabar">Calabar</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Delta">Delta</option>
+          </select>
+          <select name="" id="search-type-community" class="form-select">
+            <option>Select Comnity</option>
+            <option value="Anambra">Anambra</option>
+            <option value="Abuja">Abuja</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Calabar">Calabar</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Delta">Delta</option>
+          </select>
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+    <!--Search box end-->
+
+    <!--hero section backgroung text-->
+    <div class="container">
+      <div class=" row">
+        <div class="col-lg-4 col-md-8 text-white custom-heroText">
+          <h2>Let's help you,</h2>
+          <h4>Make your house hunting easy.</h4>
+          <p>We are dedicated to helping people find their choice of house, apartment or shops of their at the location of their choice</p>
+        </div>
+        
+      </div>
+    </div>
+    <!--hero section backgroung text end-->
+
+    <!--Recent Houses Card-->
+    <div id="latestHouse">
+      <div class="container latestHouse">
+        <h3 class="mb-3 pt-5 text-center">Recent Houses</h3>
+        <div class="row gy-3">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">One BedRoom</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Single Room</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Selfcon</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Two-Room Selfcon</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">One BedRoom</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Single Room</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Selfcon</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Two-Room Selfcon</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">One BedRoom</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Single Room</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Selfcon</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>      
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" >
+              <img src="images/h4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="#">Two-Room Selfcon</a></h5>
+                <div class="cardParagraphs">
+                  <p class="card-text">Some quick example text to build.</p>
+                  <p class="custon-homelocaton">Location: <span>Isolo</span></p>
+                  <p class="custon-homePrice">NGN: <span>700,000</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Our Purpose-->
+    <div id="OurPurpose" class="custom-ourPurpose text-white">
+      <h2>Our Purpose</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, et dolorum quo omnis eligendi ex facilis error cupiditate ab dicta, accusantium minus ipsum. Totam necessitatibus, nostrum ducimus distinctio suscipit quidem.</p>
+      <a href="#" class="btn btn-ContactUs">Contact Us</a>
+    </div>
+    <!--Our Purpose end-->
+
+    <!--Most Rated Agents-->
+    <div id="Agents" class="container pb-5">
+      <h2 class="mt-5 mb-3 fs-3 text-center">Most Reated Agents</h2>
+      <div class="row gy-4">
+        <div class="col-md-6 col-lg-3">
+          <h4 class="mb-3 pt-3">Most rated agents</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque 
+            ipsam illo est deleniti, in ducimus vitae laudantium ipsa sequi 
+            cum tempora nostrum. Mollitia totam est nam error quia. Cupiditate!
+          </p>
+          <a href="#" class="btn btn-info mt-4">Agents</a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card custom-rate">
+            <div class="card-body">
+              <img src="images/man2.webp" class="custom-agentAlignment" alt="">
+              <h4>Ibrahim Musa</h4>
+              <p>Dedicated to providing the best for my clients</p>
+              <span>Rate: <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card custom-rate">
+            <div class="card-body">
+              <img src="images/man4.jpg"  class="custom-agentAlignment"alt="">
+              <h4>Ibrahim Musa</h4>
+              <p>Dedicated to providing the best for my clients</p>
+              <span>Rate: <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card custom-rate">
+            <div class="card-body">
+              <img src="images/man2.webp" class="custom-agentAlignment" alt="">
+              <h4>Ibrahim Musa</h4>
+              <p>Dedicated to providing the best for my clients</p>
+              <span>Rate: <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Most Rated Agents-->
+
+    <!--Footer section-->
+    <footer id="footer">
+      <div class="container custom-footer-container">
+        <div class="row">
+          <div class="col-12 col-lg-3 custom-footer-logo">
+            <h2>ELE<span>WA</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore, 
+              ut atque quos commodi beatae assumenda, quasi iure vel repudiandae temporibus, 
+              maxime quas cumque aperiam laudantium. Voluptates consectetur in ullam?
+            </p>
+          </div>
+          <div class="col-12 col-lg-3 ms-lg-0">
+            <h5>Contact</h5>
+            <div class="divider"></div>
+            <p><i class="fa fa-map-pin" aria-hidden="true"></i> No. 6 Baale Street, Ishaga, Lagos State, Nigeria</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> +2349066500746</p>
+            <p><i class="fa fa-mail-forward" aria-hidden="true"></i> mosesizu4@gmail.com</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Quick Link</h5>
+            <div class="divider"></div>
+            <p>About</p>
+            <p>Support Center</p>
+            <p>Terms & Condition</p>
+            <p>Properties</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Social Links</h5>
+            <div class="divider"></div>
+            <p><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</p>
+            <p><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</p>
+            <p>Instagram</p>
+            <p>Twitter</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <p class="text-center mt-md-4 pb-md-4">&copy; 2024 Copyright</p>
+      </div>
+    </footer>
+    <!--Footer section-->
+
+
+  <!--Local JavaScript-->
+   <script src="js/script.js"></script>
+   <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+   <!--CDN JavaScript-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
